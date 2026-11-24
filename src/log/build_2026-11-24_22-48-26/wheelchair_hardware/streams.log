@@ -1,0 +1,33 @@
+[2.337s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheelchair_hardware build --build-base /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build install --record /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/install.log --install-scripts $base/lib/wheelchair_hardware --single-version-externally-managed install_data
+[2.942s] running egg_info
+[2.943s] creating ../build/wheelchair_hardware/wheelchair_hardware.egg-info
+[2.943s] writing ../build/wheelchair_hardware/wheelchair_hardware.egg-info/PKG-INFO
+[2.943s] writing dependency_links to ../build/wheelchair_hardware/wheelchair_hardware.egg-info/dependency_links.txt
+[2.943s] writing entry points to ../build/wheelchair_hardware/wheelchair_hardware.egg-info/entry_points.txt
+[2.943s] writing requirements to ../build/wheelchair_hardware/wheelchair_hardware.egg-info/requires.txt
+[2.944s] writing top-level names to ../build/wheelchair_hardware/wheelchair_hardware.egg-info/top_level.txt
+[2.952s] writing manifest file '../build/wheelchair_hardware/wheelchair_hardware.egg-info/SOURCES.txt'
+[2.959s] reading manifest file '../build/wheelchair_hardware/wheelchair_hardware.egg-info/SOURCES.txt'
+[2.959s] writing manifest file '../build/wheelchair_hardware/wheelchair_hardware.egg-info/SOURCES.txt'
+[2.968s] running build
+[2.969s] running build_py
+[2.969s] creating /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build
+[2.969s] creating /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build/lib
+[2.969s] creating /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build/lib/wheelchair_hardware
+[2.969s] copying wheelchair_hardware/__init__.py -> /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build/lib/wheelchair_hardware
+[2.969s] running install
+[2.975s] running install_lib
+[2.975s] creating /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages/wheelchair_hardware
+[2.975s] copying /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build/lib/wheelchair_hardware/__init__.py -> /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages/wheelchair_hardware
+[2.975s] byte-compiling /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages/wheelchair_hardware/__init__.py to __init__.cpython-310.pyc
+[2.976s] running install_data
+[2.977s] creating /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/share/ament_index
+[2.977s] creating /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/share/ament_index/resource_index
+[2.978s] creating /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/share/ament_index/resource_index/packages
+[2.979s] copying resource/wheelchair_hardware -> /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/share/ament_index/resource_index/packages
+[2.985s] copying package.xml -> /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/share/wheelchair_hardware
+[2.985s] running install_egg_info
+[2.987s] Copying ../build/wheelchair_hardware/wheelchair_hardware.egg-info to /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages/wheelchair_hardware-0.0.0-py3.10.egg-info
+[2.994s] running install_scripts
+[3.020s] writing list of installed files to '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/install.log'
+[3.108s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware' returned '0': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheelchair_hardware build --build-base /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/build install --record /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_hardware/install.log --install-scripts $base/lib/wheelchair_hardware --single-version-externally-managed install_data

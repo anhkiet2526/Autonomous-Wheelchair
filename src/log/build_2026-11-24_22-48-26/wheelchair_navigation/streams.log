@@ -1,0 +1,42 @@
+[0.090s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation
+[0.258s] -- The C compiler identification is GNU 11.4.0
+[0.388s] -- The CXX compiler identification is GNU 11.4.0
+[0.392s] -- Detecting C compiler ABI info
+[0.595s] -- Detecting C compiler ABI info - done
+[0.604s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.606s] -- Detecting C compile features
+[0.607s] -- Detecting C compile features - done
+[0.615s] -- Detecting CXX compiler ABI info
+[0.810s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.828s] -- Found ament_cmake: 1.3.15 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.071s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.265s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.368s] -- Added test 'lint_cmake' to check CMake code style
+[1.374s] -- Added test 'xmllint' to check XML markup files
+[1.374s] -- Configuring done
+[1.389s] -- Generating done
+[1.394s] -- Build files have been written to: /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation
+[1.404s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation
+[1.404s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation -- -j3 -l3
+[1.498s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation -- -j3 -l3
+[1.499s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation
+[1.509s] -- Install configuration: ""
+[1.512s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/ament_index/resource_index/package_run_dependencies/wheelchair_navigation
+[1.513s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/ament_index/resource_index/parent_prefix_path/wheelchair_navigation
+[1.514s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/environment/ament_prefix_path.sh
+[1.515s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/environment/ament_prefix_path.dsv
+[1.516s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/environment/path.sh
+[1.517s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/environment/path.dsv
+[1.519s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.bash
+[1.519s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.sh
+[1.523s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.zsh
+[1.524s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.dsv
+[1.524s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/package.dsv
+[1.526s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/ament_index/resource_index/packages/wheelchair_navigation
+[1.527s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/cmake/wheelchair_navigationConfig.cmake
+[1.527s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/cmake/wheelchair_navigationConfig-version.cmake
+[1.527s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/src/install/wheelchair_navigation/share/wheelchair_navigation/package.xml
+[1.544s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/src/build/wheelchair_navigation

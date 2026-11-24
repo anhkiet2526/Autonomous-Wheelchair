@@ -1,0 +1,413 @@
+[0.507s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.508s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78f0ad215c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78f0ad215720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78f0ad215720>>, mixin_verb=('build',))
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anhkiet/Autonomous-Wheelchair'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extension 'ignore'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extension 'ignore_ament_install'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extensions ['colcon_pkg']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extension 'colcon_pkg'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extensions ['colcon_meta']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extensions ['ros']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_bringup) by extension 'ros'
+[1.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_bringup' with type 'ros.ament_python' and name 'wheelchair_bringup'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ignore_ament_install'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['colcon_pkg']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'colcon_pkg'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['colcon_meta']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'colcon_meta'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ros'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['cmake', 'python']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'cmake'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'python'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['python_setup_py']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'python_setup_py'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'ignore'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'ignore_ament_install'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['colcon_pkg']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'colcon_pkg'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['colcon_meta']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'colcon_meta'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'ros'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['cmake', 'python']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'cmake'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'python'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extensions ['python_setup_py']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/meshes) by extension 'python_setup_py'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'ignore'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'ignore_ament_install'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['colcon_pkg']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'colcon_pkg'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['colcon_meta']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'colcon_meta'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['ros']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'ros'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['cmake', 'python']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'cmake'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'python'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extensions ['python_setup_py']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description/urdf) by extension 'python_setup_py'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extension 'ignore_ament_install'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extensions ['colcon_pkg']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extension 'colcon_pkg'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extensions ['colcon_meta']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extension 'colcon_meta'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extensions ['ros']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_hardware) by extension 'ros'
+[1.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_hardware' with type 'ros.ament_python' and name 'wheelchair_hardware'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extension 'ignore_ament_install'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extensions ['colcon_pkg']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extension 'colcon_pkg'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extensions ['colcon_meta']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_localization) by extension 'ros'
+[1.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_localization' with type 'ros.ament_cmake' and name 'wheelchair_localization'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extension 'colcon_meta'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extensions ['ros']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_navigation) by extension 'ros'
+[1.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_navigation' with type 'ros.ament_cmake' and name 'wheelchair_navigation'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extensions ['colcon_pkg']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extension 'colcon_pkg'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extensions ['colcon_meta']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_simulation) by extension 'ros'
+[1.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_simulation' with type 'ros.ament_cmake' and name 'wheelchair_simulation'
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/anhkiet/ros_ws/install
+[1.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_args' from command line to 'None'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_target' from command line to 'None'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.377s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup', 'merge_install': False, 'path': '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_target' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.378s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware', 'merge_install': False, 'path': '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware', 'symlink_install': False, 'test_result_base': None}
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_target' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_clean_first' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'cmake_force_configure' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'ament_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.378s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization', 'merge_install': False, 'path': '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_localization', 'symlink_install': False, 'test_result_base': None}
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_target' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.379s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation', 'merge_install': False, 'path': '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_target' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.379s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation', 'merge_install': False, 'path': '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.379s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_bringup' with build type 'ament_python'
+[1.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_bringup', 'ament_prefix_path')
+[1.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/ament_prefix_path.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/ament_prefix_path.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/ament_prefix_path.sh'
+[1.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware' with build type 'ament_python'
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_hardware', 'ament_prefix_path')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/ament_prefix_path.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/ament_prefix_path.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/ament_prefix_path.sh'
+[1.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_localization' with build type 'ament_cmake'
+[1.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_localization'
+[1.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.905s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_bringup'
+[1.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.231s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware'
+[2.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_localization -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization
+[3.162s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, upload_docs, install_scripts, symlink_data, build_clib, dist_info, test, bdist_dumb, check, install_headers, register, develop, bdist_wheel, install_lib, install_egg_info, sdist, bdist, build_scripts, clean, egg_info, build_py, alias, setopt, upload, rotate, build_ext, bdist_egg, install, saveopts, easy_install, bdist_rpm, build
+[3.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheelchair_hardware build --build-base /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/build install --record /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/install.log --install-scripts $base/lib/wheelchair_hardware --single-version-externally-managed install_data
+[3.175s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, upload_docs, install_scripts, symlink_data, build_clib, dist_info, test, bdist_dumb, check, install_headers, register, develop, bdist_wheel, install_lib, install_egg_info, sdist, bdist, build_scripts, clean, egg_info, build_py, alias, setopt, upload, rotate, build_ext, bdist_egg, install, saveopts, easy_install, bdist_rpm, build
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_bringup': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheelchair_bringup build --build-base /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/build install --record /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/install.log --install-scripts $base/lib/wheelchair_bringup --single-version-externally-managed install_data
+[3.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_bringup' returned '0': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheelchair_bringup build --build-base /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/build install --record /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_bringup/install.log --install-scripts $base/lib/wheelchair_bringup --single-version-externally-managed install_data
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup' for CMake module files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup' for CMake config files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/lib'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/bin'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/lib/pkgconfig/wheelchair_bringup.pc'
+[3.495s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/lib/python3.10/site-packages'
+[3.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_bringup', 'pythonpath')
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/pythonpath.ps1'
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/pythonpath.dsv'
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/hook/pythonpath.sh'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/bin'
+[3.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_bringup)
+[3.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/package.ps1'
+[3.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/package.dsv'
+[3.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/package.sh'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/package.bash'
+[3.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/wheelchair_bringup/package.zsh'
+[3.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup/share/colcon-core/packages/wheelchair_bringup)
+[3.509s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation' with build type 'ament_cmake'
+[3.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation'
+[3.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation
+[3.700s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware' for CMake module files
+[3.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_hardware' returned '0': PYTHONPATH=/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheelchair_hardware build --build-base /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/build install --record /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_hardware/install.log --install-scripts $base/lib/wheelchair_hardware --single-version-externally-managed install_data
+[3.701s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware' for CMake config files
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/lib'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/bin'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/lib/pkgconfig/wheelchair_hardware.pc'
+[3.703s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/lib/python3.10/site-packages'
+[3.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_hardware', 'pythonpath')
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/pythonpath.ps1'
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/pythonpath.dsv'
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/hook/pythonpath.sh'
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/bin'
+[3.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_hardware)
+[3.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/package.ps1'
+[3.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/package.dsv'
+[3.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/package.sh'
+[3.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/package.bash'
+[3.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/wheelchair_hardware/package.zsh'
+[3.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware/share/colcon-core/packages/wheelchair_hardware)
+[3.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_simulation' with build type 'ament_cmake'
+[3.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anhkiet/Autonomous-Wheelchair/src/wheelchair_simulation'
+[3.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_simulation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation
+[4.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_navigation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation -- -j3 -l3
+[4.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_localization -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization
+[4.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization -- -j3 -l3
+[4.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation -- -j3 -l3
+[4.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation
+[4.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization -- -j3 -l3
+[4.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization
+[4.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_navigation)
+[4.849s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation' for CMake module files
+[4.850s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation' for CMake config files
+[4.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_navigation', 'cmake_prefix_path')
+[4.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.ps1'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.dsv'
+[4.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.sh'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/bin'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/lib/pkgconfig/wheelchair_navigation.pc'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/lib/python3.10/site-packages'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/bin'
+[4.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.ps1'
+[4.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.dsv'
+[4.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.sh'
+[4.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.bash'
+[4.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.zsh'
+[4.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/colcon-core/packages/wheelchair_navigation)
+[4.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_navigation)
+[4.876s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation' for CMake module files
+[4.876s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation' for CMake config files
+[4.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_navigation', 'cmake_prefix_path')
+[4.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.ps1'
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.dsv'
+[4.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/hook/cmake_prefix_path.sh'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/bin'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/lib/pkgconfig/wheelchair_navigation.pc'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/lib/python3.10/site-packages'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/bin'
+[4.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.ps1'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.dsv'
+[4.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.sh'
+[4.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.bash'
+[4.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.zsh'
+[4.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/colcon-core/packages/wheelchair_navigation)
+[4.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_localization)
+[4.895s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization' for CMake module files
+[4.895s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization' for CMake config files
+[4.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_localization', 'cmake_prefix_path')
+[4.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.ps1'
+[4.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization
+[4.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.dsv'
+[4.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.sh'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/bin'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/lib/pkgconfig/wheelchair_localization.pc'
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/lib/python3.10/site-packages'
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/bin'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.ps1'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.dsv'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.sh'
+[4.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.bash'
+[4.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.zsh'
+[4.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/colcon-core/packages/wheelchair_localization)
+[4.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_localization)
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization' for CMake module files
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization' for CMake config files
+[4.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_localization', 'cmake_prefix_path')
+[4.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.ps1'
+[4.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.dsv'
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/hook/cmake_prefix_path.sh'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/bin'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/lib/pkgconfig/wheelchair_localization.pc'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/lib/python3.10/site-packages'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/bin'
+[4.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.dsv'
+[4.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.sh'
+[4.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.bash'
+[4.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.zsh'
+[4.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/colcon-core/packages/wheelchair_localization)
+[6.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake /home/anhkiet/Autonomous-Wheelchair/src/wheelchair_simulation -DCMAKE_INSTALL_PREFIX=/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation
+[6.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation -- -j3 -l3
+[6.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation -- -j3 -l3
+[6.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation
+[6.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_simulation)
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation' for CMake module files
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation' for CMake config files
+[6.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_simulation', 'cmake_prefix_path')
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.ps1'
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.dsv'
+[6.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_simulation
+[6.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.sh'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/bin'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/lib/pkgconfig/wheelchair_simulation.pc'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/lib/python3.10/site-packages'
+[6.091s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/bin'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.ps1'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.dsv'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.sh'
+[6.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.bash'
+[6.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.zsh'
+[6.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/colcon-core/packages/wheelchair_simulation)
+[6.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_simulation)
+[6.095s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation' for CMake module files
+[6.095s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation' for CMake config files
+[6.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_simulation', 'cmake_prefix_path')
+[6.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.ps1'
+[6.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.dsv'
+[6.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/hook/cmake_prefix_path.sh'
+[6.098s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/bin'
+[6.098s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/lib/pkgconfig/wheelchair_simulation.pc'
+[6.098s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/lib/python3.10/site-packages'
+[6.099s] Level 1:colcon.colcon_core.environment:checking '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/bin'
+[6.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.ps1'
+[6.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.dsv'
+[6.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.sh'
+[6.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.bash'
+[6.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/wheelchair_simulation/package.zsh'
+[6.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_simulation/share/colcon-core/packages/wheelchair_simulation)
+[6.104s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.106s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.132s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.246s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anhkiet/Autonomous-Wheelchair/install/local_setup.ps1'
+[6.248s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anhkiet/Autonomous-Wheelchair/install/_local_setup_util_ps1.py'
+[6.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anhkiet/Autonomous-Wheelchair/install/setup.ps1'
+[6.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anhkiet/Autonomous-Wheelchair/install/local_setup.sh'
+[6.254s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anhkiet/Autonomous-Wheelchair/install/_local_setup_util_sh.py'
+[6.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anhkiet/Autonomous-Wheelchair/install/setup.sh'
+[6.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anhkiet/Autonomous-Wheelchair/install/local_setup.bash'
+[6.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anhkiet/Autonomous-Wheelchair/install/setup.bash'
+[6.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anhkiet/Autonomous-Wheelchair/install/local_setup.zsh'
+[6.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anhkiet/Autonomous-Wheelchair/install/setup.zsh'
