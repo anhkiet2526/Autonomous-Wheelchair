@@ -1,0 +1,20 @@
+[0.116s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization -- -j3 -l3
+[0.317s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization -- -j3 -l3
+[0.331s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization
+[0.352s] -- Install configuration: ""
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/ament_index/resource_index/package_run_dependencies/wheelchair_localization
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/ament_index/resource_index/parent_prefix_path/wheelchair_localization
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/environment/ament_prefix_path.sh
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/environment/ament_prefix_path.dsv
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/environment/path.sh
+[0.352s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/environment/path.dsv
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/local_setup.bash
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/local_setup.sh
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/local_setup.zsh
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/local_setup.dsv
+[0.353s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.dsv
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/ament_index/resource_index/packages/wheelchair_localization
+[0.353s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/cmake/wheelchair_localizationConfig.cmake
+[0.355s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/cmake/wheelchair_localizationConfig-version.cmake
+[0.355s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_localization/share/wheelchair_localization/package.xml
+[0.359s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_localization
