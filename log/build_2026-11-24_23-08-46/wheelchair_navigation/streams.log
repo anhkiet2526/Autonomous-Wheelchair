@@ -1,0 +1,20 @@
+[0.148s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation -- -j3 -l3
+[0.295s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation -- -j3 -l3
+[0.310s] Invoking command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation
+[0.326s] -- Install configuration: ""
+[0.326s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/ament_index/resource_index/package_run_dependencies/wheelchair_navigation
+[0.326s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/ament_index/resource_index/parent_prefix_path/wheelchair_navigation
+[0.327s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/environment/path.sh
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/environment/path.dsv
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.bash
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.sh
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.zsh
+[0.328s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/local_setup.dsv
+[0.328s] -- Installing: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.dsv
+[0.332s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/ament_index/resource_index/packages/wheelchair_navigation
+[0.333s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/cmake/wheelchair_navigationConfig.cmake
+[0.334s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/cmake/wheelchair_navigationConfig-version.cmake
+[0.334s] -- Up-to-date: /home/anhkiet/Autonomous-Wheelchair/install/wheelchair_navigation/share/wheelchair_navigation/package.xml
+[0.339s] Invoked command in '/home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_hardware:/home/anhkiet/Autonomous-Wheelchair/install/wheelchair_bringup:/home/anhkiet/ros_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/anhkiet/Autonomous-Wheelchair/build/wheelchair_navigation
